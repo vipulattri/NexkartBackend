@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
 const dotenv = require("dotenv");
-const User = require("./models/User");
+const User = require("./Models/User");
 
 dotenv.config();
 const app = express();
